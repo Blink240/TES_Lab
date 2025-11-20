@@ -1,5 +1,6 @@
 import streamlit as st
 <<<<<<< HEAD
+<<<<<<< HEAD
 from clips import Environment, Symbol
 
 <<<<<<< HEAD
@@ -53,6 +54,10 @@ def create_environment():
 =======
 from clips import Environment
 
+=======
+from clips import Environment
+
+>>>>>>> f5c9ed952d2a5f7dcd464b25cc39e46a5e952e96
 
 # ---------------------------------------------------------
 # Expert System (Safe: build line-by-line)
@@ -79,12 +84,16 @@ def create_environment():
         '(symptom (name cough) (value no)) '
         '=> '
         '(assert (result (diagnosis "Unlikely COVID-19 from these symptoms."))))'
+<<<<<<< HEAD
+>>>>>>> f5c9ed952d2a5f7dcd464b25cc39e46a5e952e96
+=======
 >>>>>>> f5c9ed952d2a5f7dcd464b25cc39e46a5e952e96
     )
 
     return env
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 def run_expert_system(has_fever: bool, has_cough: bool) -> str:
     """
@@ -181,6 +190,8 @@ def main():
         "Built for TES6313 Lab – Rule-Based Expert System using clipspy & Streamlit."
     )
 =======
+=======
+>>>>>>> f5c9ed952d2a5f7dcd464b25cc39e46a5e952e96
 # ---------------------------------------------------------
 # Run Expert System
 # ---------------------------------------------------------
@@ -223,12 +234,18 @@ def main():
         except Exception as e:
             st.error("CLIPS error occurred")
             st.code(str(e))
+<<<<<<< HEAD
+>>>>>>> f5c9ed952d2a5f7dcd464b25cc39e46a5e952e96
+=======
 >>>>>>> f5c9ed952d2a5f7dcd464b25cc39e46a5e952e96
 
 
 if __name__ == "__main__":
     main()
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b54ec0703cbe89e0e20c1426ed3ac927a22e2349
+=======
+>>>>>>> f5c9ed952d2a5f7dcd464b25cc39e46a5e952e96
 =======
 >>>>>>> f5c9ed952d2a5f7dcd464b25cc39e46a5e952e96
